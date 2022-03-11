@@ -8,6 +8,7 @@
 
 #import "PZViewController.h"
 #import "TestView.h"
+#import "AFNetworking.h"
 
 @interface PZViewController ()
 @property (nonatomic,strong) TestView *ddview;
@@ -34,6 +35,5 @@
 - (void)btnClcik {
     
 }
-
 
 @end

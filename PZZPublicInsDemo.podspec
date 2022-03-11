@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PZZPublicInsDemo'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'VideoSDK'
 
 # This description is used to generate tags and improve search results.
@@ -47,7 +47,7 @@ Pod::Spec.new do |s|
   #   'PZZPublicInsDemo' => ['PZZPublicInsDemo/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/Classes/TestView.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 4.0.1'
+  s.dependency 'AFNetworking', '~> 4.0.1'
 end

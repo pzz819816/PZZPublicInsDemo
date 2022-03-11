@@ -45,6 +45,19 @@
         make.centerY.equalTo(self.aaView).offset(0);
         make.centerX.equalTo(self.aaView).offset(0);
     }];
+    
+    UIButton *leftBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    leftBtn.backgroundColor = [UIColor whiteColor];
+    [leftBtn setImage:[WWVideoLanguageSettings setImageIcon:@"fanhui"] forState:UIControlStateNormal];
+    [self.aaView addSubview:leftBtn];
+    [leftBtn WWVideo_makeConstraints:^(WWVideoConstraintMaker *make) {
+        make.top.equalTo(self.aaView).offset(0);
+        make.left.equalTo(self.aaView).offset(0);
+        make.height.WWVideo_equalTo(44);
+        make.width.WWVideo_equalTo(44);
+
+    }];
+    
 }
 
 @end

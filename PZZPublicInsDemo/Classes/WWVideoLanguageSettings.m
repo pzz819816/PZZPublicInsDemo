@@ -244,10 +244,14 @@
 
 
 + (UIImage *)setImageIcon:(NSString *)imageStr {
-    NSString *bundlePath = [[NSBundle mainBundle] pathForResource:@"WWResource" ofType:@"bundle"];
-    NSString *imagePath = [bundlePath stringByAppendingPathComponent:imageStr];
-    UIImage *image = [UIImage imageWithContentsOfFile:imagePath];
-    return image;
+    
+    NSBundle *bundle = [NSBundle bundleWithURL:[[[NSBundle bundleForClass:self.class] resourceURL] URLByAppendingPathComponent:@"WWResource.bundle"]];
+    UIImage *fullScreenImage = [UIImage imageNamed:imageStr
+                                    inBundle:bundle compatibleWithTraitCollection:nil];
+//    NSString *bundlePath = [[NSBundle mainBundle] pathForResource:@"WWResource" ofType:@"bundle"];
+//    NSString *imagePath = [bundlePath stringByAppendingPathComponent:imageStr];
+//    UIImage *image = [UIImage imageWithContentsOfFile:imagePath];
+    return fullScreenImage;
 }
 
 @end
