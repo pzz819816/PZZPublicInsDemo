@@ -1,0 +1,75 @@
+/* 
+  Localizable.strings
+  WWInstructionFramework
+
+  Created by PZZ on 2022/2/24.
+  
+*/
+
+"Password"="密码";
+"DETAIL_SET_Commands" = "指令下发";
+"WW_Click_Retry"   = "点击重试";
+"WW_Login_overdue"   = "登录过去";
+
+"Setup_command" = "设置指令";
+"Control_command" = "控制指令";
+"Command_query" = "查询指令";
+"Query_history" = "查询历史";
+"DETAIL_SET_Remind" = "提示";
+"DETAIL_OK" = "确定";
+"DETAIL_Cancel" = "取消";
+"Command_sent_successfully" = "指令发送成功";
+"DETAIL_SET_Send" = "发送";
+"Dealer_Confirm_Password"="确认密码";
+"DETAIL_SET_InputData" = "请输入数据";
+"SOSSumit" = "当遇到紧急情况需要求助时，可按下SOS按键持续3秒，将触发SOS紧急求助报警。终端将会向SOS号码各发送一条位置信息短信，并循环拨打SOS号码。（如无人接听，最多循环拨打三次";
+
+"CENTERSumit" = "如果您需要使用短信方式进行断油电或恢复油电的操作时，您必须先设置服务中心号码， 终端只接受服务中心号码发送的断油电短信指令。服务中心号码可以为任意手机号码， 但只有设为SOS号码的手机才有权限发送短信指令设置中心号码，非SOS号码不能设置成功。";
+
+"LIST_selet" = "选择";
+"At_list_one" = "请至少选择一天";
+"Instruct_name" = "指令名称";
+"DETAIL_IMEI" = "设备号";
+"Sending_time" = "发送时间";
+"Send_account" = "发送账户";
+"command_status" = "指令状态";
+"Has_been_sent" = "已发送";
+"Execution_failed" = "执行失败";
+"execution_succeed" = "执行成功";
+"command_type" = "指令类型";
+"Response_message" = "响应信息";
+"Response_time" = "响应时间";
+//刷新相关
+"MJREFRESH_PULLDOWNTOREFRESH"                 = "下拉可以刷新";
+"MJREFRESH_RELEASETOREFRESH"                  = "松开立即刷新";
+"MJREFRESH_LOADING"                           = "正在刷新数据中 ...";
+
+"MJREFRESH_PULLUPTOLOADMORE"                  = "上拉可以加载更多";
+"MJREFRESH_RELEASETOLOADMORE"                 = "松开立即加载更多";
+"MJREFRESH_LOADINGMORE"                       = "正在加载更多的数据...";
+"MJREFRESH_NOMOREDATA"                        = "已经全部加载完毕";
+
+"WWTrackRefreshHeaderIdleText" = "下拉可以刷新";
+"WWTrackRefreshHeaderPullingText" = "松开立即刷新";
+"WWTrackRefreshHeaderRefreshingText" = "正在刷新数据中...";
+
+"WWTrackRefreshTrailerIdleText" = "滑动查看图文详情";
+"WWTrackRefreshTrailerPullingText" = "释放查看图文详情";
+
+"WWTrackRefreshAutoFooterIdleText" = "点击或上拉加载更多";
+"WWTrackRefreshAutoFooterRefreshingText" = "正在加载更多的数据...";
+"WWTrackRefreshAutoFooterNoMoreDataText" = "已经全部加载完毕";
+
+"WWTrackRefreshBackFooterIdleText" = "上拉可以加载更多";
+"WWTrackRefreshBackFooterPullingText" = "松开立即加载更多";
+"WWTrackRefreshBackFooterRefreshingText" = "正在加载更多的数据...";
+"WWTrackRefreshBackFooterNoMoreDataText" = "已经全部加载完毕";
+
+"WWTrackRefreshHeaderLastTimeText" = "最后更新：";
+"WWTrackRefreshHeaderDateTodayText" = "今天";
+"WWTrackRefreshHeaderNoneLastDateText" = "无记录";
+
+
+"NODATA" = "未获取到数据";
+"Network_server_exception" = "网络异常，请检查网络设置";
+

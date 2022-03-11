@@ -1,0 +1,6 @@
+framework module Pods_PZZPublicInsDemo_Tests {
+  umbrella header "Pods-PZZPublicInsDemo_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

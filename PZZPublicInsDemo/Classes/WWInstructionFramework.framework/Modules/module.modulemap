@@ -1,0 +1,6 @@
+framework module WWInstructionFramework {
+  umbrella header "WWInstructionFramework.h"
+
+  export *
+  module * { export * }
+}
