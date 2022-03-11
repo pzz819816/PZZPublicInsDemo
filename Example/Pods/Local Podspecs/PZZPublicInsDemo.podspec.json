@@ -1,6 +1,6 @@
 {
   "name": "PZZPublicInsDemo",
-  "version": "0.1.0",
+  "version": "0.1.5",
   "summary": "VideoSDK",
   "description": "PZZPublicDemo is VideoSDK",
   "homepage": "https://github.com/pzz819816/PZZPublicInsDemo",
@@ -9,15 +9,15 @@
     "file": "LICENSE"
   },
   "authors": {
-    "PZZ": "907104252@qq.com"
+    "pzz819816": "907104252@qq.com"
   },
   "source": {
     "git": "https://github.com/pzz819816/PZZPublicInsDemo.git",
-    "tag": "0.1.0"
+    "tag": "0.1.5"
   },
   "platforms": {
     "ios": "10.0"
   },
-  "vendored_frameworks": "PZZPublicInsDemo/Classes/*.framework",
-  "resources": "PZZPublicInsDemo/Assets/*.bundle"
+  "resources": "PZZPublicInsDemo/Assets/*.bundle",
+  "source_files": "PZZPublicInsDemo/Classes/**/*"
 }

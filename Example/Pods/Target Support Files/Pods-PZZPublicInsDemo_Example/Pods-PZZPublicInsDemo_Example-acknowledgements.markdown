@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## PZZPublicInsDemo
 
-Copyright (c) 2022 PZZ <907104252@qq.com>
+Copyright (c) 2022 pzz819816 <907104252@qq.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

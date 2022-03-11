@@ -7,10 +7,9 @@
 //
 
 #import "PZViewController.h"
-#import <WWInstructionFramework/WWInstructionFramework.h>
+#import "TestView.h"
 
 @interface PZViewController ()
-@property (nonatomic,strong) WWInstructVC *instructVC;
 @property (nonatomic,strong) TestView *ddview;
 
 @end
@@ -33,17 +32,7 @@
 }
 
 - (void)btnClcik {
-    WWInstructVC *VC = [[WWInstructVC alloc]init];
-    VC.appType = WWTrackType;
-    VC.baseUrlStr = @"http://58.33.27.44:16500";
-    VC.cookieStr = @"cbab7617951b11eca7fb5e775567842d";
-    VC.imeiStr = @"863083051482406";
-//
-//    VC.appType = RMSType;
-//    VC.baseUrlStr = @"http://58.33.27.44:17000";
-//    VC.cookieStr = @"2b5f320495de11ecb1fd720e5e6c314d";
-//    VC.imeiStr = @"000000000000710";
-    [self.navigationController pushViewController:VC animated:YES];
+    
 }
 
 

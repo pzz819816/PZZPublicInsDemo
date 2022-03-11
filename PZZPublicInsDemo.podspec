@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PZZPublicInsDemo'
-  s.version          = '0.1.3'
+  s.version          = '0.1.5'
   s.summary          = 'VideoSDK'
 
 # This description is used to generate tags and improve search results.
@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
-  s.vendored_frameworks = 'PZZPublicInsDemo/Classes/*.framework'
+  #s.vendored_frameworks = 'PZZPublicInsDemo/Classes/*.framework'
    #自己的framework在工程中的路径
   
  # s.resource_bundles = ['PZZPublicInsDemo/Assets/WWResource.bundle']
@@ -39,9 +39,9 @@ Pod::Spec.new do |s|
  # }#资源文件的路径，会在pod中创建“Resources”的文件夹
 
 
-    s.resources = 'PZZPublicInsDemo/Assets/*.bundle'
+  s.resources = 'PZZPublicInsDemo/Assets/*.bundle'
 
-  #s.source_files = 'PZZPublicInsDemo/Classes/**/*'
+  s.source_files = 'PZZPublicInsDemo/Classes/**/*'
   
   # s.resource_bundles = {
   #   'PZZPublicInsDemo' => ['PZZPublicInsDemo/Assets/*.png']

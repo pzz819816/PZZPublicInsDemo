@@ -1,5 +1,5 @@
 PODS:
-  - PZZPublicInsDemo (0.1.0)
+  - PZZPublicInsDemo (0.1.5)
 
 DEPENDENCIES:
   - PZZPublicInsDemo (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PZZPublicInsDemo: f9ed996c31d42c42eb2984e179872e8e22a1f05b
+  PZZPublicInsDemo: 5625b84e1548c8947f1b37083ae57ce42877551e
 
 PODFILE CHECKSUM: c3fcfac317f149eafc74574161c3df9d90e8da5d
 

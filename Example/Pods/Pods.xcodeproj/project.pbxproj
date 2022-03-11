@@ -6,74 +6,128 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		8F2E68ECBF90C2A51359AC87537939DB /* PZZPublicInsDemo */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = B700D5160F6D2571012E12EB283B56CA /* Build configuration list for PBXAggregateTarget "PZZPublicInsDemo" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = PZZPublicInsDemo;
-			productName = PZZPublicInsDemo;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
+		0004586383BEB47E67600201E874CD34 /* NSLayoutConstraint+WWVideoDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E6CF05B962DDA8B451CD2A6CB2B5B32 /* NSLayoutConstraint+WWVideoDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0719C93CCC55DF596EE1F03C9FEE3726 /* WWVideoConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF314BE5016144409298BFFE38519FD /* WWVideoConstraint.m */; };
+		08863B9C56C50381CE24E7E24607618A /* ViewController+WWVideoAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E5D54281BD82E65623BCEBA39F5160 /* ViewController+WWVideoAdditions.m */; };
+		0A741D9D1FB28DC2BBDB0081AEFE6958 /* WWVideoViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 87B39F497BA62BD554B75724D2E3EB37 /* WWVideoViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CA710126F774678E262E7EC7A670870 /* View+WWVideoAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6286644A4221BF5C616C5821BAB5D0D1 /* View+WWVideoAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10A86D5F3D160B2722E1A323563A62BC /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDBEFC01940C0606376561346A3BAEF /* TestView.m */; };
 		1268901F7FC7EF1D76F3844079B9210C /* Pods-PZZPublicInsDemo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E713DD7E952728C9E97E88E4629FBCC /* Pods-PZZPublicInsDemo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		33C9B1B4D6D782AFAE20A60CBDF4EBD6 /* Pods-PZZPublicInsDemo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E22B9EA1DC7524D9B67DFA1BB882AC2E /* Pods-PZZPublicInsDemo_Example-dummy.m */; };
+		307FFF1CF3213806F2D09E33A866C196 /* WWVideoViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = D3044363B9CAF408DEA35A93C624AC75 /* WWVideoViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		310576CC642A4898D409081E831F8E9E /* WWVideoConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = CA9BC9D4AA0F2EAF83D18222CC84E7C6 /* WWVideoConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33C9B1B4D6D782AFAE20A60CBDF4EBD6 /* Pods-PZZPublicInsDemo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FAB246D30B4B0D68E71C86BB54908D /* Pods-PZZPublicInsDemo_Example-dummy.m */; };
+		3A6EE22D8746E6A4FE799550421FFD7F /* WWVideoLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 26636C00480E8C229E1C88AD8A8A646C /* WWVideoLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49607CC591566D1AFF2FB4783721160F /* ViewController+WWVideoAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = CAFF6597DFAC3D76CFCABDE08879849A /* ViewController+WWVideoAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D9C020E1569BF25381D0449157BBE8A /* TestView.h in Headers */ = {isa = PBXBuildFile; fileRef = C979BC9E11E16EFFE3A3D38C73C53DB1 /* TestView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52B8FC87BACBA002CF9519F889E7412F /* NSArray+WWVideoAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F2D6CD797A2EAB66CF7C986454BC36C1 /* NSArray+WWVideoAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		598F6B71F474B0D2088526552F89ECD3 /* WWVideoUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B5A670F99463BB1A59C8D45DA5DF93 /* WWVideoUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64FCA62DC015F25BED3273DDED1A5124 /* PZZPublicInsDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE44D072FBBB4BE20A3A9187D0B53716 /* PZZPublicInsDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BF23CAB2A5FFA42F72F571599FFC64B /* PZZPublicInsDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE78E8D2AFD9CA5D56768C1DE980602D /* PZZPublicInsDemo-dummy.m */; };
+		7066EA6B5E0971959F84947A4243893C /* NSArray+WWVideoShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = CFB046AF9DB9614E95AC47D6CFECE084 /* NSArray+WWVideoShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7788BEE7F5B87BE3A6AE95CE02C967AC /* WWVideoConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 88CF8F6D72DEB31C19E325960B344ADC /* WWVideoConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DE168194CA47351E6E5A807004FDCE9 /* NSArray+WWVideoAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF942AA1A13A0D24D8CBB3FE6C95638 /* NSArray+WWVideoAdditions.m */; };
+		80B52819FEFAC419F1889F5A7EC7485D /* WWVideoCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB87D90509512965739A33CFC796FA2 /* WWVideoCompositeConstraint.m */; };
+		8ADE84D4CD155B493419A6840FFBFF75 /* WWResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3E2F6C4DF698DFB8514B14AEFF41345D /* WWResource.bundle */; };
+		8DFAFA053B7E4175F19D018472780883 /* WWVideoLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D5E9591D95A2A58B5599220541FE9D /* WWVideoLayoutConstraint.m */; };
+		A3FDBBA9170FF31544702ED1883DC6D1 /* View+WWVideoShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D0E20E58BE22256956C6E85555C83233 /* View+WWVideoShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4C649F02D7B3811FC44C125B2B170CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		B3EFD2F688C629E9251805074C246F5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B5D0B8AF940C093BF94AE857B5804FA8 /* WWVideoLanguageSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = AA75B7595BB1D93BD92B611C5062F425 /* WWVideoLanguageSettings.m */; };
+		BA9503C33D2ED3E7F14E91D251E1F101 /* WWVideoViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FC358093A31C2BCAD5A1EF845F8579A3 /* WWVideoViewConstraint.m */; };
+		BAF85BB3CD31FA66136EA86EDF3CEB38 /* WWVideoonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A4B99493161ED446CE5040C52D08C59 /* WWVideoonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD6853C8AAB6A24E8706134A576D320D /* WWVideoViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC46537AE0DD2BB176D2135FEDFABAA /* WWVideoViewAttribute.m */; };
 		C09DD939D3BE40DA9A73A2BFF3A78421 /* Pods-PZZPublicInsDemo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ED767410DF29C0868A6156482B49BB5 /* Pods-PZZPublicInsDemo_Tests-dummy.m */; };
-		CA6D70BD4A077BBA651CCE5801112B2A /* Pods-PZZPublicInsDemo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C29097E3533C49614EAC6F8B7CDD0E97 /* Pods-PZZPublicInsDemo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C90751B9E05467D6E02CA4D1EB79E6E7 /* WWVideoCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 15D1F4D00F189A75DF0ADE43AEF6E8DD /* WWVideoCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA6D70BD4A077BBA651CCE5801112B2A /* Pods-PZZPublicInsDemo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B094EBA0AD7DA6E6A39180CD8FCB7347 /* Pods-PZZPublicInsDemo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0286D7074E3A9CEEEA7623EF84D709E /* WWVideoConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4C3833F7F7FC616795413688413A23 /* WWVideoConstraintMaker.m */; };
+		D61AC07DB37B7D7900197D014852950B /* WWVideoConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 5940957ABA19A9D4574E1D5488A6BAA1 /* WWVideoConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB51EECB8B7B3693D035B1FC150AA42B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E2F9304FAB63B9EB900CD721182EC030 /* NSLayoutConstraint+WWVideoDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D702B00BD0139CD1839E76BA0616F13 /* NSLayoutConstraint+WWVideoDebugAdditions.m */; };
+		EE8F33FB583F67577110BD74264AC277 /* View+WWVideoAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 379EF38DAC6266F5801207E9A9AC2166 /* View+WWVideoAdditions.m */; };
+		FED69C26CBC36058692B5E532E8ECB9A /* WWVideoLanguageSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 98CB55990BA65E9FB1F83D04DA9E062B /* WWVideoLanguageSettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4B8F693B493EB93593A6FD0E3D51E87F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8F2E68ECBF90C2A51359AC87537939DB;
-			remoteInfo = PZZPublicInsDemo;
-		};
-		58D28648DA5046FCBBEC8BCFB15F3512 /* PBXContainerItemProxy */ = {
+		AD832D6720A82E946F98B3A8C7870DA2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 01A177245CC1DAAD56A403CDAF855364;
 			remoteInfo = "Pods-PZZPublicInsDemo_Example";
 		};
+		CAA4D093620C3032562C7A98AFBE3846 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F2E68ECBF90C2A51359AC87537939DB;
+			remoteInfo = PZZPublicInsDemo;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BDBEFC01940C0606376561346A3BAEF /* TestView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TestView.m; path = PZZPublicInsDemo/Classes/TestView.m; sourceTree = "<group>"; };
+		13666A8095E811A83B00F221FFD99853 /* PZZPublicInsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PZZPublicInsDemo.release.xcconfig; sourceTree = "<group>"; };
+		15D1F4D00F189A75DF0ADE43AEF6E8DD /* WWVideoCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WWVideoCompositeConstraint.h; path = PZZPublicInsDemo/Classes/WWVideoCompositeConstraint.h; sourceTree = "<group>"; };
 		19302E1E20340C161A2BE50565CCEBED /* Pods-PZZPublicInsDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PZZPublicInsDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1CB63E500AB8AE1AA3A03826ACFE0397 /* PZZPublicInsDemo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PZZPublicInsDemo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		26636C00480E8C229E1C88AD8A8A646C /* WWVideoLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WWVideoLayoutConstraint.h; path = PZZPublicInsDemo/Classes/WWVideoLayoutConstraint.h; sourceTree = "<group>"; };
+		29F393326087FDA9DC72D492A1ABA712 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2A4B99493161ED446CE5040C52D08C59 /* WWVideoonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WWVideoonry.h; path = PZZPublicInsDemo/Classes/WWVideoonry.h; sourceTree = "<group>"; };
+		2A4C3833F7F7FC616795413688413A23 /* WWVideoConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WWVideoConstraintMaker.m; path = PZZPublicInsDemo/Classes/WWVideoConstraintMaker.m; sourceTree = "<group>"; };
 		2ED767410DF29C0868A6156482B49BB5 /* Pods-PZZPublicInsDemo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PZZPublicInsDemo_Tests-dummy.m"; sourceTree = "<group>"; };
-		4384F47985CC3CA5FC143C77E22D6772 /* Pods-PZZPublicInsDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PZZPublicInsDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
-		49AF76950327830214F3CFE6B0CBF72B /* PZZPublicInsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PZZPublicInsDemo.release.xcconfig; sourceTree = "<group>"; };
-		4CA94F7378821E72E84333F68983D725 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		379EF38DAC6266F5801207E9A9AC2166 /* View+WWVideoAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+WWVideoAdditions.m"; path = "PZZPublicInsDemo/Classes/View+WWVideoAdditions.m"; sourceTree = "<group>"; };
+		3E2F6C4DF698DFB8514B14AEFF41345D /* WWResource.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = WWResource.bundle; path = PZZPublicInsDemo/Assets/WWResource.bundle; sourceTree = "<group>"; };
+		3E6CF05B962DDA8B451CD2A6CB2B5B32 /* NSLayoutConstraint+WWVideoDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+WWVideoDebugAdditions.h"; path = "PZZPublicInsDemo/Classes/NSLayoutConstraint+WWVideoDebugAdditions.h"; sourceTree = "<group>"; };
+		4ADDFEAA9B66DC4CB3A685B407F1674F /* Pods-PZZPublicInsDemo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PZZPublicInsDemo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		4CB0D399F3D644AD75E2C87383EFCE51 /* Pods-PZZPublicInsDemo_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PZZPublicInsDemo_Tests-Info.plist"; sourceTree = "<group>"; };
 		4F0EC73989CB6A409AF96E3D1CD90169 /* Pods-PZZPublicInsDemo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PZZPublicInsDemo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		516715AB450464B7A90158AC536805C8 /* WWResource.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = WWResource.bundle; path = PZZPublicInsDemo/Assets/WWResource.bundle; sourceTree = "<group>"; };
-		545D250A6C4AE285741A1E3166787ECC /* Pods-PZZPublicInsDemo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PZZPublicInsDemo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5285E913E1C882FCEF9BB9D77D6F0C46 /* PZZPublicInsDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PZZPublicInsDemo.modulemap; sourceTree = "<group>"; };
+		5940957ABA19A9D4574E1D5488A6BAA1 /* WWVideoConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WWVideoConstraint+Private.h"; path = "PZZPublicInsDemo/Classes/WWVideoConstraint+Private.h"; sourceTree = "<group>"; };
+		6286644A4221BF5C616C5821BAB5D0D1 /* View+WWVideoAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+WWVideoAdditions.h"; path = "PZZPublicInsDemo/Classes/View+WWVideoAdditions.h"; sourceTree = "<group>"; };
+		68B4272AFBF0C6D8920F5CCAD85DDBF3 /* Pods-PZZPublicInsDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PZZPublicInsDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6E713DD7E952728C9E97E88E4629FBCC /* Pods-PZZPublicInsDemo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PZZPublicInsDemo_Tests-umbrella.h"; sourceTree = "<group>"; };
 		6EDD905ADDA14B0A18E94F2E363A5EAC /* Pods-PZZPublicInsDemo_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PZZPublicInsDemo_Example"; path = Pods_PZZPublicInsDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72C73699A266F48EBB307D9C2C1B9BC0 /* Pods-PZZPublicInsDemo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PZZPublicInsDemo_Example-frameworks.sh"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		79E5D54281BD82E65623BCEBA39F5160 /* ViewController+WWVideoAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+WWVideoAdditions.m"; path = "PZZPublicInsDemo/Classes/ViewController+WWVideoAdditions.m"; sourceTree = "<group>"; };
+		7D702B00BD0139CD1839E76BA0616F13 /* NSLayoutConstraint+WWVideoDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+WWVideoDebugAdditions.m"; path = "PZZPublicInsDemo/Classes/NSLayoutConstraint+WWVideoDebugAdditions.m"; sourceTree = "<group>"; };
+		81B5A670F99463BB1A59C8D45DA5DF93 /* WWVideoUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WWVideoUtilities.h; path = PZZPublicInsDemo/Classes/WWVideoUtilities.h; sourceTree = "<group>"; };
 		84BB0E4B6D9CFB9D9E4233D073BDBAB6 /* Pods-PZZPublicInsDemo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PZZPublicInsDemo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		85FC58EC7C470FB2741DBDC27CDE7E16 /* Pods-PZZPublicInsDemo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PZZPublicInsDemo_Example.modulemap"; sourceTree = "<group>"; };
+		87B39F497BA62BD554B75724D2E3EB37 /* WWVideoViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WWVideoViewAttribute.h; path = PZZPublicInsDemo/Classes/WWVideoViewAttribute.h; sourceTree = "<group>"; };
 		87E797D9F88DADFF09BD8DFBF6212BF1 /* Pods-PZZPublicInsDemo_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PZZPublicInsDemo_Tests"; path = Pods_PZZPublicInsDemo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E378B1FE6B4FB2AD79314F8FAC8A9C1 /* WWInstructionFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WWInstructionFramework.framework; path = PZZPublicInsDemo/Classes/WWInstructionFramework.framework; sourceTree = "<group>"; };
-		A23C0C73264C34D707979973601CB78A /* Pods-PZZPublicInsDemo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PZZPublicInsDemo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		B01C2923E954D0435F2EB212D809BD7C /* Pods-PZZPublicInsDemo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PZZPublicInsDemo_Example.modulemap"; sourceTree = "<group>"; };
-		B5947230378973E1AECFA6A3408A3662 /* Pods-PZZPublicInsDemo_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PZZPublicInsDemo_Example-Info.plist"; sourceTree = "<group>"; };
-		C29097E3533C49614EAC6F8B7CDD0E97 /* Pods-PZZPublicInsDemo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PZZPublicInsDemo_Example-umbrella.h"; sourceTree = "<group>"; };
+		88CF8F6D72DEB31C19E325960B344ADC /* WWVideoConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WWVideoConstraint.h; path = PZZPublicInsDemo/Classes/WWVideoConstraint.h; sourceTree = "<group>"; };
+		8DB667F2F0BBD40C88FE74E6E2CB282C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		98CB55990BA65E9FB1F83D04DA9E062B /* WWVideoLanguageSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WWVideoLanguageSettings.h; path = PZZPublicInsDemo/Classes/WWVideoLanguageSettings.h; sourceTree = "<group>"; };
+		9BF4D24B54AA78D06598660EE7A544DC /* PZZPublicInsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PZZPublicInsDemo.debug.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1D5E9591D95A2A58B5599220541FE9D /* WWVideoLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WWVideoLayoutConstraint.m; path = PZZPublicInsDemo/Classes/WWVideoLayoutConstraint.m; sourceTree = "<group>"; };
+		AA75B7595BB1D93BD92B611C5062F425 /* WWVideoLanguageSettings.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WWVideoLanguageSettings.m; path = PZZPublicInsDemo/Classes/WWVideoLanguageSettings.m; sourceTree = "<group>"; };
+		AAC46537AE0DD2BB176D2135FEDFABAA /* WWVideoViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WWVideoViewAttribute.m; path = PZZPublicInsDemo/Classes/WWVideoViewAttribute.m; sourceTree = "<group>"; };
+		ABF942AA1A13A0D24D8CBB3FE6C95638 /* NSArray+WWVideoAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+WWVideoAdditions.m"; path = "PZZPublicInsDemo/Classes/NSArray+WWVideoAdditions.m"; sourceTree = "<group>"; };
+		B04834D480A55F9707A64755E7E8513D /* Pods-PZZPublicInsDemo_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PZZPublicInsDemo_Example-Info.plist"; sourceTree = "<group>"; };
+		B094EBA0AD7DA6E6A39180CD8FCB7347 /* Pods-PZZPublicInsDemo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PZZPublicInsDemo_Example-umbrella.h"; sourceTree = "<group>"; };
+		BAF314BE5016144409298BFFE38519FD /* WWVideoConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WWVideoConstraint.m; path = PZZPublicInsDemo/Classes/WWVideoConstraint.m; sourceTree = "<group>"; };
+		C41313BD447CA8F745C01F242165E370 /* Pods-PZZPublicInsDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PZZPublicInsDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C521E6A17C1A2C8A5EC0474990583198 /* Pods-PZZPublicInsDemo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PZZPublicInsDemo_Tests.modulemap"; sourceTree = "<group>"; };
-		C76483D0D4082941E60763B252CF4073 /* PZZPublicInsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PZZPublicInsDemo.debug.xcconfig; sourceTree = "<group>"; };
-		CF93E9EB1E837F879D225C43A318EB1B /* PZZPublicInsDemo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PZZPublicInsDemo.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		C8455A4B41515A4B6D29B543ED32CEF4 /* PZZPublicInsDemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PZZPublicInsDemo; path = PZZPublicInsDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C979BC9E11E16EFFE3A3D38C73C53DB1 /* TestView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestView.h; path = PZZPublicInsDemo/Classes/TestView.h; sourceTree = "<group>"; };
+		CA9BC9D4AA0F2EAF83D18222CC84E7C6 /* WWVideoConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WWVideoConstraintMaker.h; path = PZZPublicInsDemo/Classes/WWVideoConstraintMaker.h; sourceTree = "<group>"; };
+		CAFF6597DFAC3D76CFCABDE08879849A /* ViewController+WWVideoAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+WWVideoAdditions.h"; path = "PZZPublicInsDemo/Classes/ViewController+WWVideoAdditions.h"; sourceTree = "<group>"; };
+		CE715752B69529C6861BA2829DBD7EE9 /* PZZPublicInsDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PZZPublicInsDemo-Info.plist"; sourceTree = "<group>"; };
+		CE78E8D2AFD9CA5D56768C1DE980602D /* PZZPublicInsDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PZZPublicInsDemo-dummy.m"; sourceTree = "<group>"; };
+		CFB046AF9DB9614E95AC47D6CFECE084 /* NSArray+WWVideoShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+WWVideoShorthandAdditions.h"; path = "PZZPublicInsDemo/Classes/NSArray+WWVideoShorthandAdditions.h"; sourceTree = "<group>"; };
+		D0E20E58BE22256956C6E85555C83233 /* View+WWVideoShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+WWVideoShorthandAdditions.h"; path = "PZZPublicInsDemo/Classes/View+WWVideoShorthandAdditions.h"; sourceTree = "<group>"; };
+		D3044363B9CAF408DEA35A93C624AC75 /* WWVideoViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WWVideoViewConstraint.h; path = PZZPublicInsDemo/Classes/WWVideoViewConstraint.h; sourceTree = "<group>"; };
 		DE94912C9037F7F4E8FE1028BC07029E /* Pods-PZZPublicInsDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PZZPublicInsDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E22B9EA1DC7524D9B67DFA1BB882AC2E /* Pods-PZZPublicInsDemo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PZZPublicInsDemo_Example-dummy.m"; sourceTree = "<group>"; };
-		E84393688557B52181CF68CE54F6F896 /* Pods-PZZPublicInsDemo_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PZZPublicInsDemo_Example-resources.sh"; sourceTree = "<group>"; };
-		ED830747A42947EA7F073EF3316C2C3D /* Pods-PZZPublicInsDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PZZPublicInsDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EF61E988949560E12AE67222E3C58E91 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DEF281E1AE6C2F9585D84114146F1206 /* PZZPublicInsDemo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PZZPublicInsDemo-prefix.pch"; sourceTree = "<group>"; };
+		E2FAB246D30B4B0D68E71C86BB54908D /* Pods-PZZPublicInsDemo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PZZPublicInsDemo_Example-dummy.m"; sourceTree = "<group>"; };
+		EAB87D90509512965739A33CFC796FA2 /* WWVideoCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WWVideoCompositeConstraint.m; path = PZZPublicInsDemo/Classes/WWVideoCompositeConstraint.m; sourceTree = "<group>"; };
+		EAFA6968124C3B050B8D4B0E7D890E66 /* Pods-PZZPublicInsDemo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PZZPublicInsDemo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EE44D072FBBB4BE20A3A9187D0B53716 /* PZZPublicInsDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PZZPublicInsDemo-umbrella.h"; sourceTree = "<group>"; };
+		F2D6CD797A2EAB66CF7C986454BC36C1 /* NSArray+WWVideoAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+WWVideoAdditions.h"; path = "PZZPublicInsDemo/Classes/NSArray+WWVideoAdditions.h"; sourceTree = "<group>"; };
+		FC358093A31C2BCAD5A1EF845F8579A3 /* WWVideoViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WWVideoViewConstraint.m; path = PZZPublicInsDemo/Classes/WWVideoViewConstraint.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +136,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3EFD2F688C629E9251805074C246F5C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C24296E36D95091628DB46C224FB7B15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB51EECB8B7B3693D035B1FC150AA42B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,18 +158,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03D722CD45463E25C527817EF623C2CE /* Development Pods */ = {
+		088A9C99BD8F8B78FF88729ACFEBF192 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8C547D1EE8E10065E7D3AFA6BC16E727 /* PZZPublicInsDemo */,
+				5EFC6949A53E529A287A803CE738B433 /* PZZPublicInsDemo */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4AC88722131E205EE39D3D169A94F132 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5285E913E1C882FCEF9BB9D77D6F0C46 /* PZZPublicInsDemo.modulemap */,
+				CE78E8D2AFD9CA5D56768C1DE980602D /* PZZPublicInsDemo-dummy.m */,
+				CE715752B69529C6861BA2829DBD7EE9 /* PZZPublicInsDemo-Info.plist */,
+				DEF281E1AE6C2F9585D84114146F1206 /* PZZPublicInsDemo-prefix.pch */,
+				EE44D072FBBB4BE20A3A9187D0B53716 /* PZZPublicInsDemo-umbrella.h */,
+				9BF4D24B54AA78D06598660EE7A544DC /* PZZPublicInsDemo.debug.xcconfig */,
+				13666A8095E811A83B00F221FFD99853 /* PZZPublicInsDemo.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PZZPublicInsDemo";
 			sourceTree = "<group>";
 		};
 		520F0BB4E171EC8D9FF3BB677A9620D2 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B1E8A2F3C9FA5ECF1A19C92677D9C782 /* Pods-PZZPublicInsDemo_Example */,
+				B32552CD6AC8B0B003C24095E32E7D36 /* Pods-PZZPublicInsDemo_Example */,
 				AFB7154BF2E047797AD9922668C39A23 /* Pods-PZZPublicInsDemo_Tests */,
 			);
 			name = "Targets Support Files";
@@ -121,43 +198,52 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		67DA33767631ADDB01E6FC4EB85E5F06 /* Products */ = {
+		5EFC6949A53E529A287A803CE738B433 /* PZZPublicInsDemo */ = {
 			isa = PBXGroup;
 			children = (
-				6EDD905ADDA14B0A18E94F2E363A5EAC /* Pods-PZZPublicInsDemo_Example */,
-				87E797D9F88DADFF09BD8DFBF6212BF1 /* Pods-PZZPublicInsDemo_Tests */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		89C383E769B1D6E43169B14F24A7EF6D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C76483D0D4082941E60763B252CF4073 /* PZZPublicInsDemo.debug.xcconfig */,
-				49AF76950327830214F3CFE6B0CBF72B /* PZZPublicInsDemo.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/PZZPublicInsDemo";
-			sourceTree = "<group>";
-		};
-		8C547D1EE8E10065E7D3AFA6BC16E727 /* PZZPublicInsDemo */ = {
-			isa = PBXGroup;
-			children = (
-				516715AB450464B7A90158AC536805C8 /* WWResource.bundle */,
-				E09C862244E4C158545DB2384083B9A8 /* Frameworks */,
-				97F59E10A82AA0E66A5AA0233B40718F /* Pod */,
-				89C383E769B1D6E43169B14F24A7EF6D /* Support Files */,
+				F2D6CD797A2EAB66CF7C986454BC36C1 /* NSArray+WWVideoAdditions.h */,
+				ABF942AA1A13A0D24D8CBB3FE6C95638 /* NSArray+WWVideoAdditions.m */,
+				CFB046AF9DB9614E95AC47D6CFECE084 /* NSArray+WWVideoShorthandAdditions.h */,
+				3E6CF05B962DDA8B451CD2A6CB2B5B32 /* NSLayoutConstraint+WWVideoDebugAdditions.h */,
+				7D702B00BD0139CD1839E76BA0616F13 /* NSLayoutConstraint+WWVideoDebugAdditions.m */,
+				C979BC9E11E16EFFE3A3D38C73C53DB1 /* TestView.h */,
+				0BDBEFC01940C0606376561346A3BAEF /* TestView.m */,
+				6286644A4221BF5C616C5821BAB5D0D1 /* View+WWVideoAdditions.h */,
+				379EF38DAC6266F5801207E9A9AC2166 /* View+WWVideoAdditions.m */,
+				D0E20E58BE22256956C6E85555C83233 /* View+WWVideoShorthandAdditions.h */,
+				CAFF6597DFAC3D76CFCABDE08879849A /* ViewController+WWVideoAdditions.h */,
+				79E5D54281BD82E65623BCEBA39F5160 /* ViewController+WWVideoAdditions.m */,
+				3E2F6C4DF698DFB8514B14AEFF41345D /* WWResource.bundle */,
+				15D1F4D00F189A75DF0ADE43AEF6E8DD /* WWVideoCompositeConstraint.h */,
+				EAB87D90509512965739A33CFC796FA2 /* WWVideoCompositeConstraint.m */,
+				88CF8F6D72DEB31C19E325960B344ADC /* WWVideoConstraint.h */,
+				BAF314BE5016144409298BFFE38519FD /* WWVideoConstraint.m */,
+				5940957ABA19A9D4574E1D5488A6BAA1 /* WWVideoConstraint+Private.h */,
+				CA9BC9D4AA0F2EAF83D18222CC84E7C6 /* WWVideoConstraintMaker.h */,
+				2A4C3833F7F7FC616795413688413A23 /* WWVideoConstraintMaker.m */,
+				98CB55990BA65E9FB1F83D04DA9E062B /* WWVideoLanguageSettings.h */,
+				AA75B7595BB1D93BD92B611C5062F425 /* WWVideoLanguageSettings.m */,
+				26636C00480E8C229E1C88AD8A8A646C /* WWVideoLayoutConstraint.h */,
+				A1D5E9591D95A2A58B5599220541FE9D /* WWVideoLayoutConstraint.m */,
+				2A4B99493161ED446CE5040C52D08C59 /* WWVideoonry.h */,
+				81B5A670F99463BB1A59C8D45DA5DF93 /* WWVideoUtilities.h */,
+				87B39F497BA62BD554B75724D2E3EB37 /* WWVideoViewAttribute.h */,
+				AAC46537AE0DD2BB176D2135FEDFABAA /* WWVideoViewAttribute.m */,
+				D3044363B9CAF408DEA35A93C624AC75 /* WWVideoViewConstraint.h */,
+				FC358093A31C2BCAD5A1EF845F8579A3 /* WWVideoViewConstraint.m */,
+				774015266FE2489E972521D4ABB46F47 /* Pod */,
+				4AC88722131E205EE39D3D169A94F132 /* Support Files */,
 			);
 			name = PZZPublicInsDemo;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		97F59E10A82AA0E66A5AA0233B40718F /* Pod */ = {
+		774015266FE2489E972521D4ABB46F47 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				4CA94F7378821E72E84333F68983D725 /* LICENSE */,
-				CF93E9EB1E837F879D225C43A318EB1B /* PZZPublicInsDemo.podspec */,
-				EF61E988949560E12AE67222E3C58E91 /* README.md */,
+				8DB667F2F0BBD40C88FE74E6E2CB282C /* LICENSE */,
+				1CB63E500AB8AE1AA3A03826ACFE0397 /* PZZPublicInsDemo.podspec */,
+				29F393326087FDA9DC72D492A1ABA712 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -178,18 +264,18 @@
 			path = "Target Support Files/Pods-PZZPublicInsDemo_Tests";
 			sourceTree = "<group>";
 		};
-		B1E8A2F3C9FA5ECF1A19C92677D9C782 /* Pods-PZZPublicInsDemo_Example */ = {
+		B32552CD6AC8B0B003C24095E32E7D36 /* Pods-PZZPublicInsDemo_Example */ = {
 			isa = PBXGroup;
 			children = (
-				B01C2923E954D0435F2EB212D809BD7C /* Pods-PZZPublicInsDemo_Example.modulemap */,
-				545D250A6C4AE285741A1E3166787ECC /* Pods-PZZPublicInsDemo_Example-acknowledgements.markdown */,
-				A23C0C73264C34D707979973601CB78A /* Pods-PZZPublicInsDemo_Example-acknowledgements.plist */,
-				E22B9EA1DC7524D9B67DFA1BB882AC2E /* Pods-PZZPublicInsDemo_Example-dummy.m */,
-				B5947230378973E1AECFA6A3408A3662 /* Pods-PZZPublicInsDemo_Example-Info.plist */,
-				E84393688557B52181CF68CE54F6F896 /* Pods-PZZPublicInsDemo_Example-resources.sh */,
-				C29097E3533C49614EAC6F8B7CDD0E97 /* Pods-PZZPublicInsDemo_Example-umbrella.h */,
-				ED830747A42947EA7F073EF3316C2C3D /* Pods-PZZPublicInsDemo_Example.debug.xcconfig */,
-				4384F47985CC3CA5FC143C77E22D6772 /* Pods-PZZPublicInsDemo_Example.release.xcconfig */,
+				85FC58EC7C470FB2741DBDC27CDE7E16 /* Pods-PZZPublicInsDemo_Example.modulemap */,
+				EAFA6968124C3B050B8D4B0E7D890E66 /* Pods-PZZPublicInsDemo_Example-acknowledgements.markdown */,
+				4ADDFEAA9B66DC4CB3A685B407F1674F /* Pods-PZZPublicInsDemo_Example-acknowledgements.plist */,
+				E2FAB246D30B4B0D68E71C86BB54908D /* Pods-PZZPublicInsDemo_Example-dummy.m */,
+				72C73699A266F48EBB307D9C2C1B9BC0 /* Pods-PZZPublicInsDemo_Example-frameworks.sh */,
+				B04834D480A55F9707A64755E7E8513D /* Pods-PZZPublicInsDemo_Example-Info.plist */,
+				B094EBA0AD7DA6E6A39180CD8FCB7347 /* Pods-PZZPublicInsDemo_Example-umbrella.h */,
+				C41313BD447CA8F745C01F242165E370 /* Pods-PZZPublicInsDemo_Example.debug.xcconfig */,
+				68B4272AFBF0C6D8920F5CCAD85DDBF3 /* Pods-PZZPublicInsDemo_Example.release.xcconfig */,
 			);
 			name = "Pods-PZZPublicInsDemo_Example";
 			path = "Target Support Files/Pods-PZZPublicInsDemo_Example";
@@ -199,9 +285,9 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				03D722CD45463E25C527817EF623C2CE /* Development Pods */,
+				088A9C99BD8F8B78FF88729ACFEBF192 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				67DA33767631ADDB01E6FC4EB85E5F06 /* Products */,
+				DDF3D3F06A130F46DEE669CED07AA02F /* Products */,
 				520F0BB4E171EC8D9FF3BB677A9620D2 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -214,17 +300,44 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E09C862244E4C158545DB2384083B9A8 /* Frameworks */ = {
+		DDF3D3F06A130F46DEE669CED07AA02F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9E378B1FE6B4FB2AD79314F8FAC8A9C1 /* WWInstructionFramework.framework */,
+				6EDD905ADDA14B0A18E94F2E363A5EAC /* Pods-PZZPublicInsDemo_Example */,
+				87E797D9F88DADFF09BD8DFBF6212BF1 /* Pods-PZZPublicInsDemo_Tests */,
+				C8455A4B41515A4B6D29B543ED32CEF4 /* PZZPublicInsDemo */,
 			);
-			name = Frameworks;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		67FE430DD77DBA72BB806F6138863D2A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B8FC87BACBA002CF9519F889E7412F /* NSArray+WWVideoAdditions.h in Headers */,
+				7066EA6B5E0971959F84947A4243893C /* NSArray+WWVideoShorthandAdditions.h in Headers */,
+				0004586383BEB47E67600201E874CD34 /* NSLayoutConstraint+WWVideoDebugAdditions.h in Headers */,
+				64FCA62DC015F25BED3273DDED1A5124 /* PZZPublicInsDemo-umbrella.h in Headers */,
+				4D9C020E1569BF25381D0449157BBE8A /* TestView.h in Headers */,
+				0CA710126F774678E262E7EC7A670870 /* View+WWVideoAdditions.h in Headers */,
+				A3FDBBA9170FF31544702ED1883DC6D1 /* View+WWVideoShorthandAdditions.h in Headers */,
+				49607CC591566D1AFF2FB4783721160F /* ViewController+WWVideoAdditions.h in Headers */,
+				C90751B9E05467D6E02CA4D1EB79E6E7 /* WWVideoCompositeConstraint.h in Headers */,
+				7788BEE7F5B87BE3A6AE95CE02C967AC /* WWVideoConstraint.h in Headers */,
+				D61AC07DB37B7D7900197D014852950B /* WWVideoConstraint+Private.h in Headers */,
+				310576CC642A4898D409081E831F8E9E /* WWVideoConstraintMaker.h in Headers */,
+				FED69C26CBC36058692B5E532E8ECB9A /* WWVideoLanguageSettings.h in Headers */,
+				3A6EE22D8746E6A4FE799550421FFD7F /* WWVideoLayoutConstraint.h in Headers */,
+				BAF85BB3CD31FA66136EA86EDF3CEB38 /* WWVideoonry.h in Headers */,
+				598F6B71F474B0D2088526552F89ECD3 /* WWVideoUtilities.h in Headers */,
+				0A741D9D1FB28DC2BBDB0081AEFE6958 /* WWVideoViewAttribute.h in Headers */,
+				307FFF1CF3213806F2D09E33A866C196 /* WWVideoViewConstraint.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7BA8F80CA7E44D15A1BF3BA680F64A78 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -256,11 +369,29 @@
 			buildRules = (
 			);
 			dependencies = (
-				E85E918A205B9427F25E78D675233E1F /* PBXTargetDependency */,
+				AE050C2BA2193776F7C2C48111BF10EE /* PBXTargetDependency */,
 			);
 			name = "Pods-PZZPublicInsDemo_Example";
 			productName = Pods_PZZPublicInsDemo_Example;
 			productReference = 6EDD905ADDA14B0A18E94F2E363A5EAC /* Pods-PZZPublicInsDemo_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		8F2E68ECBF90C2A51359AC87537939DB /* PZZPublicInsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57C26BC0EA2F1F80E1CF1D329FCEC06F /* Build configuration list for PBXNativeTarget "PZZPublicInsDemo" */;
+			buildPhases = (
+				67FE430DD77DBA72BB806F6138863D2A /* Headers */,
+				60692EB32BCF3B2A97114C3AA07A1286 /* Sources */,
+				C24296E36D95091628DB46C224FB7B15 /* Frameworks */,
+				F1E33B2C2B097DB6CE7C45D143944FAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PZZPublicInsDemo;
+			productName = PZZPublicInsDemo;
+			productReference = C8455A4B41515A4B6D29B543ED32CEF4 /* PZZPublicInsDemo */;
 			productType = "com.apple.product-type.framework";
 		};
 		AF3D468285BC9358A408D4DFE7B057A9 /* Pods-PZZPublicInsDemo_Tests */ = {
@@ -275,7 +406,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				CC86994E8CDAED1ADF7D7324CEB9FD34 /* PBXTargetDependency */,
+				D9BF58955F174615DDD03AB050ABEF5C /* PBXTargetDependency */,
 			);
 			name = "Pods-PZZPublicInsDemo_Tests";
 			productName = Pods_PZZPublicInsDemo_Tests;
@@ -300,7 +431,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 67DA33767631ADDB01E6FC4EB85E5F06 /* Products */;
+			productRefGroup = DDF3D3F06A130F46DEE669CED07AA02F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -326,9 +457,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F1E33B2C2B097DB6CE7C45D143944FAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ADE84D4CD155B493419A6840FFBFF75 /* WWResource.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		60692EB32BCF3B2A97114C3AA07A1286 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DE168194CA47351E6E5A807004FDCE9 /* NSArray+WWVideoAdditions.m in Sources */,
+				E2F9304FAB63B9EB900CD721182EC030 /* NSLayoutConstraint+WWVideoDebugAdditions.m in Sources */,
+				6BF23CAB2A5FFA42F72F571599FFC64B /* PZZPublicInsDemo-dummy.m in Sources */,
+				10A86D5F3D160B2722E1A323563A62BC /* TestView.m in Sources */,
+				EE8F33FB583F67577110BD74264AC277 /* View+WWVideoAdditions.m in Sources */,
+				08863B9C56C50381CE24E7E24607618A /* ViewController+WWVideoAdditions.m in Sources */,
+				80B52819FEFAC419F1889F5A7EC7485D /* WWVideoCompositeConstraint.m in Sources */,
+				0719C93CCC55DF596EE1F03C9FEE3726 /* WWVideoConstraint.m in Sources */,
+				D0286D7074E3A9CEEEA7623EF84D709E /* WWVideoConstraintMaker.m in Sources */,
+				B5D0B8AF940C093BF94AE857B5804FA8 /* WWVideoLanguageSettings.m in Sources */,
+				8DFAFA053B7E4175F19D018472780883 /* WWVideoLayoutConstraint.m in Sources */,
+				BD6853C8AAB6A24E8706134A576D320D /* WWVideoViewAttribute.m in Sources */,
+				BA9503C33D2ED3E7F14E91D251E1F101 /* WWVideoViewConstraint.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F3077979E30348EF8232905B5050A63B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -348,24 +507,56 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CC86994E8CDAED1ADF7D7324CEB9FD34 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-PZZPublicInsDemo_Example";
-			target = 01A177245CC1DAAD56A403CDAF855364 /* Pods-PZZPublicInsDemo_Example */;
-			targetProxy = 58D28648DA5046FCBBEC8BCFB15F3512 /* PBXContainerItemProxy */;
-		};
-		E85E918A205B9427F25E78D675233E1F /* PBXTargetDependency */ = {
+		AE050C2BA2193776F7C2C48111BF10EE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PZZPublicInsDemo;
 			target = 8F2E68ECBF90C2A51359AC87537939DB /* PZZPublicInsDemo */;
-			targetProxy = 4B8F693B493EB93593A6FD0E3D51E87F /* PBXContainerItemProxy */;
+			targetProxy = CAA4D093620C3032562C7A98AFBE3846 /* PBXContainerItemProxy */;
+		};
+		D9BF58955F174615DDD03AB050ABEF5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PZZPublicInsDemo_Example";
+			target = 01A177245CC1DAAD56A403CDAF855364 /* Pods-PZZPublicInsDemo_Example */;
+			targetProxy = AD832D6720A82E946F98B3A8C7870DA2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		019EF039023CB72867286DC3D93C6909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13666A8095E811A83B00F221FFD99853 /* PZZPublicInsDemo.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PZZPublicInsDemo/PZZPublicInsDemo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PZZPublicInsDemo/PZZPublicInsDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PZZPublicInsDemo/PZZPublicInsDemo.modulemap";
+				PRODUCT_MODULE_NAME = PZZPublicInsDemo;
+				PRODUCT_NAME = PZZPublicInsDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		11734D3F9CDE260A3637614DB70A2114 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED830747A42947EA7F073EF3316C2C3D /* Pods-PZZPublicInsDemo_Example.debug.xcconfig */;
+			baseConfigurationReference = C41313BD447CA8F745C01F242165E370 /* Pods-PZZPublicInsDemo_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -398,7 +589,7 @@
 		};
 		5E82BD804446FC53741E75B3757B1781 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4384F47985CC3CA5FC143C77E22D6772 /* Pods-PZZPublicInsDemo_Example.release.xcconfig */;
+			baseConfigurationReference = 68B4272AFBF0C6D8920F5CCAD85DDBF3 /* Pods-PZZPublicInsDemo_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -519,26 +710,43 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		8DC458AAADC0B40C61B3B59533205731 /* Release */ = {
+		B47C805FD8E215270C4A82B23551C2F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 49AF76950327830214F3CFE6B0CBF72B /* PZZPublicInsDemo.release.xcconfig */;
+			baseConfigurationReference = 9BF4D24B54AA78D06598660EE7A544DC /* PZZPublicInsDemo.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PZZPublicInsDemo/PZZPublicInsDemo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PZZPublicInsDemo/PZZPublicInsDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PZZPublicInsDemo/PZZPublicInsDemo.modulemap";
+				PRODUCT_MODULE_NAME = PZZPublicInsDemo;
+				PRODUCT_NAME = PZZPublicInsDemo;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		C528C9B62149D3E4ADDA12B7AFA58FAB /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -639,20 +847,6 @@
 			};
 			name = Debug;
 		};
-		DF6C126E5B128FE33FB652A4D53DC8A7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C76483D0D4082941E60763B252CF4073 /* PZZPublicInsDemo.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -674,20 +868,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		57C26BC0EA2F1F80E1CF1D329FCEC06F /* Build configuration list for PBXNativeTarget "PZZPublicInsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B47C805FD8E215270C4A82B23551C2F1 /* Debug */,
+				019EF039023CB72867286DC3D93C6909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		75298876EE2E68F1BA48613F50C69BF1 /* Build configuration list for PBXNativeTarget "Pods-PZZPublicInsDemo_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C528C9B62149D3E4ADDA12B7AFA58FAB /* Debug */,
 				69EC6A8280399D3D15B02F0CB3EB8274 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B700D5160F6D2571012E12EB283B56CA /* Build configuration list for PBXAggregateTarget "PZZPublicInsDemo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DF6C126E5B128FE33FB652A4D53DC8A7 /* Debug */,
-				8DC458AAADC0B40C61B3B59533205731 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
