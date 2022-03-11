@@ -22,7 +22,7 @@ pod 'PZZPublicInsDemo'
 
 ## Author
 
-PZZ, 907104252@qq.com
+pzz819816, 907104252@qq.com
 
 ## License
 
