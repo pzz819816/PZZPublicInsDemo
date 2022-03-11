@@ -29,12 +29,17 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
-  s.vendored_frameworks = ['PZZPublicInsDemo/Classes/WWInstructionFramework.framework'] #自己的framework在工程中的路径
+  s.vendored_frameworks = 'PZZPublicInsDemo/Classes/*.framework'
+   #自己的framework在工程中的路径
+  
+ # s.resource_bundles = ['PZZPublicInsDemo/Assets/WWResource.bundle']
 
-  s.resource_bundles = {
-    'PZZResources' => ['PZZPublicInsDemo/Assets/WWResource.bundle']
-  }#资源文件的路径，会在pod中创建“Resources”的文件夹
+ # s.resource_bundles = {
+ #   'PZZResources' => ['PZZPublicInsDemo/Assets/WWResource.bundle']
+ # }#资源文件的路径，会在pod中创建“Resources”的文件夹
 
+
+    s.resources = 'PZZPublicInsDemo/Assets/*.bundle'
 
   #s.source_files = 'PZZPublicInsDemo/Classes/**/*'
   
@@ -44,5 +49,5 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-   s.dependency 'AFNetworking', '~> 4.0.1'
+  # s.dependency 'AFNetworking', '~> 4.0.1'
 end
